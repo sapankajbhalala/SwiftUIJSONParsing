@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00451D1244046EE00343FDF /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00451D0244046EE00343FDF /* UserRow.swift */; };
 		B043C1E3243F58E5003EE410 /* FetchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B043C1E2243F58E4003EE410 /* FetchUserView.swift */; };
 		B043C1E6243F5926003EE410 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B043C1E5243F5926003EE410 /* User.swift */; };
 		B043C1E9243F5BD1003EE410 /* UserFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B043C1E8243F5BD1003EE410 /* UserFetcher.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00451D0244046EE00343FDF /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
 		B043C1E2243F58E4003EE410 /* FetchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserView.swift; sourceTree = "<group>"; };
 		B043C1E5243F5926003EE410 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B043C1E8243F5BD1003EE410 /* UserFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetcher.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00451CF244046D600343FDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B00451D0244046EE00343FDF /* UserRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B043C1E4243F5906003EE410 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 				B0A37162243F0AF4002B89D0 /* SceneDelegate.swift */,
 				B0A37164243F0AF4002B89D0 /* ContentView.swift */,
 				B043C1E2243F58E4003EE410 /* FetchUserView.swift */,
+				B00451CF244046D600343FDF /* View */,
 				B043C1E7243F5B9E003EE410 /* RequestFetcher */,
 				B043C1E4243F5906003EE410 /* Model */,
 				B0A37166243F0AF8002B89D0 /* Assets.xcassets */,
@@ -175,6 +186,7 @@
 				B0A37161243F0AF4002B89D0 /* AppDelegate.swift in Sources */,
 				B0A37163243F0AF4002B89D0 /* SceneDelegate.swift in Sources */,
 				B043C1E3243F58E5003EE410 /* FetchUserView.swift in Sources */,
+				B00451D1244046EE00343FDF /* UserRow.swift in Sources */,
 				B043C1E6243F5926003EE410 /* User.swift in Sources */,
 				B0A37165243F0AF4002B89D0 /* ContentView.swift in Sources */,
 			);
